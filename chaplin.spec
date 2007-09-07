@@ -1,6 +1,6 @@
 %define name chaplin
 %define version 1.10 
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: A dvd chapter tool
 Name: %{name}
