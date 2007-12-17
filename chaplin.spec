@@ -12,7 +12,6 @@ Patch1: chaplin-1.10-include.patch.bz2
 License: GPL
 Group: Video 
 Url: http://www.lallafa.de/bp/chaplin.html
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libdvdread-devel
 
 %description
