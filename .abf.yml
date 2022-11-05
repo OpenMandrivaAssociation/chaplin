@@ -1,4 +1,4 @@
 sources:
-  "chaplin-1.10-include.patch.bz2": 9e7d03e22a1ca9eff395361840e646b94beccc51
-  "chaplin-1.10.tar.bz2": 8342777b591c719aa56e39e2770f4b4a88b74a6f
-  "chaplin_1.10-0.0.diff.gz": cab787c79ec33f657c4a9f774e92afccc093e981
+  chaplin-1.10-include.patch.bz2: 9e7d03e22a1ca9eff395361840e646b94beccc51
+  chaplin-1.10.tgz: 864fe0942998f79044f3cb3ce8decc8831edbcfe
+  chaplin_1.10-0.0.diff.gz: cab787c79ec33f657c4a9f774e92afccc093e981

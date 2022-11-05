@@ -1,0 +1,22 @@
+--- a/Makefile
++++ b/Makefile
+@@ -1,15 +1,16 @@
+ # Makefile for chap
+ # $Id: Makefile,v 1.5 2004/03/21 17:44:18 cnvogelg Exp $
+ 
+-LIBDVDREAD=/soft/libdvdread
++CC ?= gcc
++LIBDVDREAD ?= /soft/libdvdread
+ 
+ all: build
+ 
+ build:
+-	gcc -DNDEBUG -Wall -I$(LIBDVDREAD)/include -L$(LIBDVDREAD)/lib -ldvdread -Wl,-rpath,$(LIBDVDREAD)/lib -o chaplin chaplin.c -lm
++	$(CC) -DNDEBUG -Wall -I$(LIBDVDREAD)/include -L$(LIBDVDREAD)/lib -ldvdread -Wl,-rpath,$(LIBDVDREAD)/lib -o chaplin chaplin.c -lm $(CFLAGS)
+ 
+ debug:
+-	gcc -Wall -I$(LIBDVDREAD)/include -L$(LIBDVDREAD)/lib -ldvdread -Wl,-rpath,$(LIBDVDREAD)/lib -o chaplin chaplin.c -lm
++	$(CC) -Wall -I$(LIBDVDREAD)/include -L$(LIBDVDREAD)/lib -ldvdread -Wl,-rpath,$(LIBDVDREAD)/lib -o chaplin chaplin.c -lm
+ 
+ dist:
+ 	cd .. ; tar cvfz chaplin.tgz chaplin/Makefile chaplin/chaplin.c chaplin/chaplin-genmenu chaplin/chaplin
