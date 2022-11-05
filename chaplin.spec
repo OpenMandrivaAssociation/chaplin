@@ -8,8 +8,6 @@ Url:		http://www.lallafa.de/bp/chaplin.html
 Source0:	https://www.lallafa.de/bp/files/%{name}-%{version}.tgz
 Patch0:		chaplin-1.10-include.patch
 Patch1:		chaplin-1.10-Makefile.patch
-#Patch0:		http://archive.ubuntu.com/ubuntu/pool/multiverse/c/chaplin/chaplin_1.10-0.0.diff.gz
-#Patch0:		http://archive.ubuntu.com/ubuntu/pool/multiverse/c/chaplin/chaplin_1.10-0.2ubuntu6.diff.gz
 BuildRequires:	pkgconfig(dvdread)
 
 %description
