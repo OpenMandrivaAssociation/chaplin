@@ -1,10 +1,10 @@
 Summary:	A dvd chapter tool
 Name:		chaplin
 Version:	1.10
-Release:	11
+Release:	12
 License:	GPL
 Group:		Video
-Url:		http://www.lallafa.de/bp/chaplin.html
+Url:		https://www.lallafa.de/bp/chaplin.html
 Source0:	https://www.lallafa.de/bp/files/%{name}-%{version}.tgz
 Patch0:		chaplin-1.10-include.patch
 Patch1:		chaplin-1.10-Makefile.patch
